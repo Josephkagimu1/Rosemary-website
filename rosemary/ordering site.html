@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order for rosemary</title>
+
+    <style>
+        body{
+            background-image: url(gallery/plant.jpg);
+            background-size: cover;
+            overflow: auto;
+        }
+        div.box{
+            width: 400PX;
+            height: 500PX;
+            background-image: url(gallery/rose drink.jpg);
+            padding: 20px;
+            margin-top: 30px;
+            color: white;
+            background-color: black;
+            opacity: 0.9;
+            
+        }
+         div.box p1 {
+            text-align: center;
+           font-weight: normal;
+           text-align: justify;
+           padding: 20px;
+         }
+         div.box h1 {
+            text-align: center;
+            text-transform: uppercase;
+            color: red;
+            margin-top: 30px;
+         }
+         div.nav{
+           text-align: center;
+         }
+         div.nav ul{
+            margin-top: 20px;
+             padding: 20px;
+         }
+
+         div.nav ul li{
+            display: inline;
+            padding: 20px;
+        }
+        div.nav ul li a{
+           color: black;
+           text-decoration: none;
+           border: 1px dotted red;
+           padding: 20px;
+        }
+        div.nav ul li a:hover{
+            color: blue;
+            background-color: red;
+        }
+        div.footer{
+            margin-top: 100px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            opacity: 0.9;
+        }
+        div.footer ul{
+            padding: 20px;
+            margin-bottom: 0;
+        }
+        div.footer ul li{
+           display: inline;
+           padding: 20px;
+        }
+        div.footer ul li a{
+            color: white;
+            text-decoration: none;
+            border: 1px dashed red;
+            padding: 20px;
+        }
+        div.footer ul li a:hover{
+            background-color: red;
+            color: blue;;
+        }
+        div.fieldset {
+        	color: #0088dd;
+        	background-image: url("gallery/rosedrinka.jpg");
+        	background-repeat: no-repeat;
+        	background-size: cover;
+        	text-align: justify;
+        }
+        div.fieldset legend{
+        	color: #0088dd;
+        	margin-top: 10px;
+        	margin-left: 10px;
+        	text-transform: uppercase;
+        }
+        div.fieldset h3{
+        	color: red;
+        }
+        Marquee{
+        	color: red;
+        	margin-top: 20px;
+        	padding: 50px;
+        	font-size: xx-large;
+        	font-family: Unicode', Geneva, Verdana, sans-serif
+        }
+        
+    </style>
+
+    </head>
+    <body>
+        <div class="nav">
+            <ul>
+                <li><a href="rosemary.html">HOME</a><li>
+                <li><a href="benefits.html">BENEFITS</a><li>
+                <li><a href="contact.html">CONTACT US</a><li>
+                <li><a href="Ordering site.html">ORDER NOW</a><li>
+            </ul>
+        </div>
+
+<legend> <h2> Your Details:</h2> </legend>
+<lable> Name:  <input type="text" name="name" size="30" maxlength="100">
+</lable> </br>
+<lable>  contact: <input type="contact" name="contact" size="30" maxlength="50>" </lable> </br>
+<label> Email: <input type="email" name="email" size="30" maxlength="100"> </label> </br>
+<lable>  Password: <input type="password" name="password" size="25" maxlength="50" required="required"> </lable> </br>
+
+<div class="fieldset">
+    <legend> <h2>Your Ordering Request:</h2> </legend>
+    <h3>Ordering now;</h3>
+    <textarea name="comments" cols="30" rows="10" > Order for your wish....</textarea>
+
+<h3> select payment method</h3>
+<select name="device">
+<option value="mobile money">mobile money</option>
+<option value="credit card">credit card</option>
+<option value="live cash">live cash</option>
+</select>
+<p>Would you like visiting us again?</p> 
+<label> <input type="radio" name="rating" value="yes"> YES  </label>
+<label> <input type="radio" name="rating" value="no"> NO </label>
+<label> <input type="radio" name="rating" value="may be"> MAY BE </label>
+<h4>Comments</h4>
+<textarea name="comments cols="10" rows="4" maxlength="100" >comment accepted...</textarea>
+<p>
+<input type="image" src="gallery/s.jpg" width="80" height="20" >
+</p>
+<label> <input type="checkbox" name="subscribe" check="checked"> sign me up for updates</label>
+
+</fieldset>
+</div>
+
+<Marquee><strong>Thanks for visiting us... keep on doing so !</strong></Marquee>
+
+<div class="footer">
+        <ul>
+            <li><a href="ordering site.html">Back to Top</a></li>
+            <li><a href="rosemary.html">HOME</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">search more</a></li>
+        </ul>  
+    </div>
